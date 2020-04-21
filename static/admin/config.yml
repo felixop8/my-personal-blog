@@ -1,5 +1,7 @@
 backend:
-  name: test-repo
+  name: github
+  repo: felixop8/my-profesional-blog
+
 
 media_folder: static/assets
 public_folder: assets
