@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: felixop8/my-profesional-blog
+  repo: felixop8/my-personal-blog
 
 
 media_folder: static/assets
