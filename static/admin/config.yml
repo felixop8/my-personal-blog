@@ -13,11 +13,14 @@ collections:
     create: true
     filter: {section: "projectPost"}
     fields:
+      - { label: 'Template', name: 'template', widget: 'hidden', default: 'post' }
       - { name: path, label: Path }
       - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
       - { name: description, label: Description }
       - { name: body, label: Body, widget: markdown }
+      - { label: 'Category', name: 'category', widget: 'string' }
+      - { label: 'Tags', name: 'tags', widget: 'list' }
 
   - name: projects
     label: Projects
@@ -25,6 +28,7 @@ collections:
     create: true
     filter: {section: "projectPost"}
     fields:
+      - { label: 'Template', name: 'template', widget: 'hidden', default: 'project' }
       - { name: path, label: Path }
       - { name: date, label: Date, widget: date }
       - { name: title, label: Title }

@@ -6,6 +6,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 import Button from "../components/button"
+import styled from "styled-components"
 
 class Blog extends React.Component {
   render() {
@@ -17,7 +18,7 @@ class Blog extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="Blog" />
         <Bio />
-        <div style={{ margin: "20px 0 40px" }}>
+        <BlogList>
           {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
             return (
@@ -43,7 +44,7 @@ class Blog extends React.Component {
               </div>
             )
           })}
-        </div>
+        </BlogList>
         <Link to="/">
           <Button marginTop="85px">Go Home</Button>
         </Link>
@@ -51,6 +52,11 @@ class Blog extends React.Component {
     )
   }
 }
+
+const BlogList = styled.div`
+  margin: 20px 0 40px
+`
+
 
 export default Blog
 
