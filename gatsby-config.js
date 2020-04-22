@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Felix Oporto`,
+    title: `Reactants`,
     author: `Felix Oporto`,
-    description: `Gatsby personal blog with styled components, dark mode, and Netlify CMS.`,
-    siteUrl: `https://felix-personal-blog.netlify.com/`,
+    description: `Personal blog by Felix Oporto. Let's create some products.`,
+    siteUrl: `https://reactants.netlify.com/`,
     social: {
-      twitter: `felixop8`,
+      twitter: `@felixop8`,
     },
   },
   plugins: [
