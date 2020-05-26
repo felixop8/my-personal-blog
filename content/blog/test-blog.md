@@ -9,4 +9,4 @@ tags:
 ---
 test blog
 
-![asdf](assets/lauraandjuli.jpg "asdfghjk")
+![asdf](assets/screen-shot-2020-05-26-at-4.45.37-pm.png "asdfghjk")
