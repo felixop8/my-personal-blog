@@ -6,6 +6,7 @@ module.exports = {
     siteUrl: `https://reactants.netlify.com/`,
     social: {
       twitter: `@felixop8`,
+      github: `felixop8`
     },
   },
   plugins: [
